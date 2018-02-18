@@ -1,11 +1,13 @@
 html {
   font-size: 18px;
   line-height: 1.4;
+  font-family: helvetica, sans-serif;
 }
 
 .main-banner {
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
   height: 30rem;
 }
@@ -77,58 +79,53 @@ top: 3rem;
 margin: auto;
 }
 
-.offerings {
+.paper-icon {
+  width: 3rem;
+}
+
+.ruler-icon, .truck-icon {
+  width: 5rem;
+}
+
+
+.offerings, .offerings-text {
   display: flex;
-  justify-content: center; /*vandret*/
+  justify-content: center;
   align-items: center;
   width: 960px;
-}
-
-/*.offerings img {
-  margin-right: 6rem;
-}*/
-
-.exams {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;; /*lodret*/
-  align-items: flex-end;
-  height: 8rem;
-}
-
-.fittings, .delivery {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-end;
-  height: 8rem;
-}
-
-.fittings {
-margin: 0rem 6rem 0rem 6rem;
-}
-
-.paper-icon {
-  width: 3.5rem;
-  margin-left: 2rem;
+  margin-bottom: 1rem;
 }
 
 .ruler-icon {
-  width: 5rem;
-  margin-left: 3rem;
-}
-
-.truck-icon {
-  width: 5rem;
-  margin-left: 2rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
 }
 
 .offerings-text {
+text-align: center;
+}
+
+.business-makers {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  font-family: helvetica, sans-serif;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 960px;
+  margin-left: 4rem;
+}
+
+.philosophy, .appointments {
+  width: 35%;
+  margin-top: 3rem;
+  margin-right: 5%;
+
+}
+
+#philosophy, #appointments {
+  background: cadetblue;
+  width: 10rem;
+  font-weight: bold;
+  color: white;
   font-size: 1rem;
-  text-align: center;
-  margin-bottom: 3rem;
+  padding: 0.5rem 0rem 0.5rem 1.25rem;
+  margin-bottom: 1rem;
 }
