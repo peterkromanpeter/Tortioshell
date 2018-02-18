@@ -77,14 +77,53 @@ top: 3rem;
 margin: auto;
 }
 
-.offerings, .offerings-text {
+.offerings {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  height: 8rem;
-
+  align-items: center;
+  width: 960px;
+  height: 12rem;
 }
 
-.offerings {
+/*.offerings img {
   margin-right: 6rem;
+}*/
+
+.exams {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 5rem;
+  margin-right: 8rem;
+  height: 11rem;
+}
+
+.fittings, .delivery {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 5rem;
+  margin-right: 6rem;
+  height: 11rem;
+}
+
+.paper-icon {
+  width: 3.5rem;
+}
+
+.ruler-icon {
+  width: 5rem;
+}
+
+.truck-icon {
+  width: 5rem;
+}
+
+.offerings-text {
+  font-family: helvetica, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 3rem;
 }
