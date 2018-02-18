@@ -34,6 +34,10 @@ nav ul li {
   padding: 0rem 2rem 0rem 2rem;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 #main-banner_left {
   width: 960px;
   display: flex;
@@ -146,4 +150,97 @@ text-align: center;
 .footer p {
   display: inline-block;
   margin-left: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 768px;
+  }
+  .top-menu {
+    width: 100%;
+    top: 0rem;
+  }
+
+  .main-banner {
+    height: 22rem;
+  }
+
+  .punch-line-container {
+    width: 768px;
+    top: 5rem;
+  }
+
+  .punch-line {
+    background-color: white;
+    margin-right: 2rem;
+  }
+
+  .punch-line h2 {
+    font-size: 1.33rem;
+    line-height: 1.2;
+    padding: 0.75rem 4rem 0.75rem 4rem;
+  }
+
+  .main-content, .offerings, .offerings-text, .business-makers, .footer {
+    width: 768px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  body {
+    width: 480px;
+  }
+
+  .top-menu {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    width: 480px;
+    margin: 0 auto;
+    background-color: cadetblue;
+    color:white;
+  }
+
+  #main-banner_left_mobile {
+    width: 480px;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    padding-left:1rem;
+  }
+
+  #main-banner_left_mobile p{
+    position: relative;
+    left: 200px;
+  }
+
+  .main-banner {
+    width: 480px;
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .punch-line-container {
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: 9rem;
+    left: 1rem;
+    right: 1rem;
+
+  }
+
+  .punch-line {
+    background-color: white;
+  }
+
+  .punch-line h2 {
+    font-size: 1rem;
+    text-align: center;
+}
+
 }
