@@ -163,11 +163,13 @@ text-align: center;
 
   .main-banner {
     height: 22rem;
+
   }
 
   .punch-line-container {
     width: 768px;
-    top: 5rem;
+    position: relative;
+    top: 7rem;
   }
 
   .punch-line {
@@ -224,13 +226,11 @@ text-align: center;
   }
 
   .punch-line-container {
-    width: 500px;
+    width: 480px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     position: relative;
     top: 9rem;
-    left: 1rem;
-    right: 1rem;
 
   }
 
@@ -241,6 +241,19 @@ text-align: center;
   .punch-line h2 {
     font-size: 1rem;
     text-align: center;
+  }
+
+  .main-content {
+  width: 480px;
+  position: relative;
+  top: 3.77rem;
+  }
+.offerings, .offerings-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 480px;
+  margin-bottom: 1rem;
 }
 
 }
