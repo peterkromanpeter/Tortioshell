@@ -92,12 +92,20 @@ margin: auto;
 }
 
 
-.offerings, .offerings-text {
+.offerings {
   display: flex;
   justify-content: center;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  width: 960px;
-  margin-bottom: 1rem;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+  text-align: center;
 }
 
 .ruler-icon {
@@ -152,9 +160,10 @@ text-align: center;
   margin-left: 1rem;
 }
 
-@media only screen and (max-width: 768px) {
+/* Responsive display for tablets */
+@media only screen and (max-width: 1024px) {
   body {
-    width: 768px;
+    width: 100%;
   }
   .top-menu {
     width: 100%;
@@ -167,7 +176,7 @@ text-align: center;
   }
 
   .punch-line-container {
-    width: 768px;
+    width: 100%;
     position: relative;
     top: 7rem;
   }
@@ -184,7 +193,7 @@ text-align: center;
   }
 
   .main-content, .offerings, .offerings-text, .business-makers, .footer {
-    width: 768px;
+    width: 100%;
   }
 }
 
